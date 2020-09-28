@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!--a layout that contains both nav and fragments-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start">
+
+    <!--    this layout contains the fragments-->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavView"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    </FrameLayout>
+    <!--the bottom nav view-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:labelVisibilityMode="selected"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_container"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:itemIconTint="@drawable/bottom_navigation_color_selector"
+        app:itemTextColor="@drawable/bottom_navigation_color_selector"
+        app:menu="@menu/navigation_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BottomNavigationDemo</string>
+    <string name="songs">Songs</string>
+    <string name="album">Album</string>
+    <string name="artist">Artist</string>
+    <string name="welcome">Welcome</string>
+    <string name="discover_courses">Discover Courses</string>
+    <string name="android_ui">Android UI\nWidgets are UI component such as…</string>
+    <string name="widget_are_ui_component_such_as">Widgets are UI component such as…</string>
+    <string name="most_viewed">Most Viewed</string>
+    <string name="android_studio_logo">Android Studio logo</string>
+    <string name="software_development">Software Development</string>
+    <string name="in_software_engineering_a_software_development_process_is_the_process_of">In software engineering, a software development process is the process of…</string>
+    <string name="bg">bg</string>
+    <string name="the_data_science_course_2019_complete_data_science_bootcamp">The Data Science Course 2019: Complete Data Science Bootcamp</string>
+    <string name="mario_speedwagon">Mario Speedwagon</string>
+    <string name="i_teach_full_stack_development_which_means_you_will_see_tutorials_regarding_ui_ux_frontend_dev_backend_dev_graphic_and_more">I teach full stack development! Which means you will see tutorials regarding UI/UX, Frontend Dev, Backend Dev, Graphic and more</string>
+    <string name="profile">Profile</string>
+    <string name="completed_courses">Completed courses</string>
+    <string name="top_rated_courses">Top rated courses</string>
+    <string name="see_full_review"><![CDATA[See full review >]]></string>
+    <string name="learn_python_like_a_professional_start_from_the_basics_and_go_all_the_way_to_creating_your">Learn Python like a Professional! Start from the basics and go all the way to creating your...</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="home">Home</string>
+</resources>
