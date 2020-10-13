@@ -14,12 +14,11 @@ import com.kienct.bottomnavigationdemo.model.TopCourse
 class WishlistFragment : Fragment() {
     companion object {
         fun newInstance(): WishlistFragment {
-            return  WishlistFragment()
+            return WishlistFragment()
         }
     }
+
     private lateinit var recyclerView: RecyclerView
-    private lateinit var viewAdapter: RecyclerView.Adapter<*>
-    private lateinit var layoutManager: LinearLayoutManager
     private val topCourses: MutableList<TopCourse> = ArrayList()
 
     override fun onCreateView(inflater: LayoutInflater,
@@ -28,7 +27,9 @@ class WishlistFragment : Fragment() {
         recyclerView = view.findViewById(R.id.wishlist_view)
         addList()
         setAdapter()
-        return view    }
+        return view
+    }
+
     private fun setAdapter() {
         val topCoursesAdapter = TopCoursesAdapter(topCourses)
         recyclerView.layoutManager = LinearLayoutManager(view?.context)

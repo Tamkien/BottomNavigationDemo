@@ -22,8 +22,6 @@ class ProfileFragment : Fragment() {
 
     private lateinit var view1: RecyclerView
     private lateinit var view2: RecyclerView
-    private lateinit var viewAdapter: RecyclerView.Adapter<*>
-    private lateinit var layoutManager: LinearLayoutManager
     private val completedCoursesImgSrc: MutableList<Int> = ArrayList()
     private val topCourses: MutableList<TopCourse> = ArrayList()
 

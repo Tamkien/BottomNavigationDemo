@@ -17,16 +17,16 @@ class TopCoursesAdapter(private val topCourses: MutableList<TopCourse>) : Recycl
     }
 
     internal class ViewHolder(v: View) : RecyclerView.ViewHolder(v) {
-        var img : ImageView = v.findViewById(R.id.imageView7)
-        var r : RatingBar = v.findViewById(R.id.ratingBar)
-        var desc : TextView = v.findViewById(R.id.textView16)
+        var img: ImageView = v.findViewById(R.id.imageView7)
+        var r: RatingBar = v.findViewById(R.id.ratingBar)
+        var desc: TextView = v.findViewById(R.id.textView16)
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         val course = topCourses[position]
         (holder as ViewHolder).img.setImageResource(course.imgSrc)
-            holder.desc.text = course.description
-            holder.r.rating = course.rating
+        holder.desc.text = course.description
+        holder.r.rating = course.rating
 
     }
 

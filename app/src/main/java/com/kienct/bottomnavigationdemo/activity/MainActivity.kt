@@ -6,9 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.kienct.bottomnavigationdemo.R
+import com.kienct.bottomnavigationdemo.fragment.HomeFragment
 import com.kienct.bottomnavigationdemo.fragment.ProfileFragment
 import com.kienct.bottomnavigationdemo.fragment.WishlistFragment
-import com.kienct.bottomnavigationdemo.fragment.HomeFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
